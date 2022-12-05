@@ -59,17 +59,17 @@ public class TestElements {
         //Enter tuşu ile arama yapılır.
         elementPage.txtSearchBox().sendKeys(Keys.ENTER);
 
-        Thread.sleep(5000);
+        Thread.sleep(7000);
 
         //Sayfada aşağı inip son ürünü bul.
         js.executeScript("window.scrollTo(0,768)");
-        Thread.sleep(1000);
+        Thread.sleep(1500);
         js.executeScript("window.scrollTo(0,1900)");
-        Thread.sleep(1000);
+        Thread.sleep(1500);
         js.executeScript("window.scrollTo(0,3300)");
-        Thread.sleep(1000);
+        Thread.sleep(1500);
         js.executeScript("window.scrollTo(0,5000)");
-        Thread.sleep(1000);
+        Thread.sleep(1500);
 
         //Tıklanacak ürünün text içeriği alınır.
         String s1=elementPage.product1().getText();

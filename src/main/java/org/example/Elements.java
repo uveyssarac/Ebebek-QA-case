@@ -17,7 +17,7 @@ public class Elements {
     }
 
     public WebElement product() {
-        return driver.findElement(By.cssSelector(".col-6:nth-child(43) .is-initialized > .ng-star-inserted"));
+        return driver.findElement(By.cssSelector(".col-6:nth-child(42) .is-initialized > .ng-star-inserted"));
     }
     public WebElement product1() {
         return driver.findElement(By.xpath("/html/body/app-root/cx-storefront/main/cx-page-layout/cx-page-slot[3]" +
